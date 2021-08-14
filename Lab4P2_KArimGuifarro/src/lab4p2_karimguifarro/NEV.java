@@ -58,7 +58,7 @@ public class NEV extends toyota {
 
     @Override
     public String toString() {
-        return "NEV{" + "con_com=" + con_com + ", dur_ac=" + dur_ac + ", vel_max=" + vel_max + ", tipo=" + tipo + '}';
+        return "NEV{" + super.toString()  +"con_com=" + con_com + ", dur_ac=" + dur_ac + ", vel_max=" + vel_max + ", tipo=" + tipo + '}';
     }
 
 }
